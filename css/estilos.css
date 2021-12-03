@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: blueviolet;
+    height: 500px;
+    padding: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    justify-content: center;
+    /* margin-top: 30px; */
+    /* height: 500px; */
+    margin: auto;
+    /* background: blueviolet; */
+    /* padding: 20px; */
+}
+
+form input[type="text"]{
+    padding: 20px 0px;
+    border: 0;
+    margin: 10px auto 10px auto;
+}
+
+input:focus{
+    border: 1px solid black;
+}
+
+form textarea{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.fiel{
+    width: 100%;
+    margin: auto;
+    /* margin: 10px; */
+}
+
+.btn{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 0px;
+    background: rgb(206, 85, 85);
+    transition: 0.5s;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: rgba(206, 85, 85, 0.692);
+    color: white;
+    
+}
+
+
+
+
+@media screen and (max-width: 380px){
+
+    .container{
+        width: 100%;
+    }
+
+
+    form{
+        width: 100%;
+        margin: auto;
+        /* height: auto; */
+    }
+
+    form input[type="text"]{
+        width: 100%;
+        margin: 10px auto 10px auto;
+        padding: 20px;
+    }
+
+    form textarea{
+        width: 100%;
+    }
+
+    .fiel{
+        width: 100%;
+        margin:auto;
+    }
+
+    form .btn{
+        color: white;
+        font-size: 20px;
+        margin-top: 15px;
+        width: 100%;
+        transition: 0.5s;
+        background: rgb(199, 33, 33)
+    }
+
+    form .btn:hover{
+        background: rgba(199, 33, 33, 0.274);
+        border:1px solid white;
+    }
+
+
+}
+
+
+@media screen and (max-width: 320px){
+
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+
+    form{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .fiel{
+        width: 100%;
+        margin: 10px auto 10px auto;
+    }
+
+    form input[type="text"]{
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    form input textarea{
+        max-width: 100%;
+    }
+
+    form .btn{
+        color: white;
+        font-size: 20px;
+        margin-top: 15px;
+        width: 100%;
+        transition: 0.5s;
+        background: rgb(199, 33, 33)
+    }
+
+    form .btn:hover{
+        background: rgba(199, 33, 33, 0.274);
+        border:1px solid white;
+    }
+
+}

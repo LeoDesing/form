@@ -1,0 +1,18 @@
+body{
+    background-image: url(/img/hacker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    background: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
